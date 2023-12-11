@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: 'CustomFont'; 
-    src: url('한국기계연구원_bold.ttf') format('truetype'); 
+    src: url('../juhee3/한국기계연구원_bold.ttf') format('truetype'); 
     font-weight: bold; 
   }
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
@@ -60,6 +60,7 @@
       display: block;
       padding: 8px 15px;
       position: relative;
+      font-family: 'CustomFont', sans-serif; 
   }
   ul li a:before{
       content: '';
